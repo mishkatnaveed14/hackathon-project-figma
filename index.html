@@ -1,22 +1,965 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="./large.css"> -->
 </head>
+
 <body>
-    
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-xxl">
+            <a class="navbar-brand d-flex align-items-center" href="#"> <img src="./images/logo.png" height="40px"
+                    width="40px" alt="logo">
+                <h1>embedsocial</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Platforms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Widgets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Template</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                    </li>
+
+                </ul>
+                <div class="d-flex" role="search">
+                    <!-- <button class="btn">Login</button> -->
+                    <button class="btn btn1 me-4" type="submit">Login</button>
+                    <button class=" btn bg-primary text-light btn1">Start Free Trial</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- section1 start -->
+    <section class="section1">
+        <div class="container-xxl section-1 d-flex p-5">
+            <div class="container1">
+                <div class="sec1-1_1 py-3">
+                    <h1 class="display-3 fw-bolder lh-3">Display Instagram Stories
+                        on any website, <mark class="mt-5 p-0">in seconds.</mark></h1>
+                    <p>Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add
+                        a photo in your active story. </p>
+                </div>
+                <div class="sec1-1">
+
+                    <div class="sec1-2">
+                        <!-- <input type="email" name="email" id="" placeholder="Enter your email">
+                        <button class="btn1">Start Free Trial <img src="./images/arrow.png" alt="arrow"> -->
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter your email"
+                                aria-label="Recipient’s username" aria-describedby="button-addon2">
+                            <button class="btn bg-primary text-light" type="button" id="button-addon2">Start Free Trial
+                                <img src="./images/arrow.png" alt="arrow" class="img-fluid"></button>
+                        </div>
+                        </button>
+                    </div>
+                    <div class="sec-1-3  mt-3">
+                        <ul class="d-flex gap-3">
+                            <span>Free 7-day trial</span>
+                            <li>Easy setup</li>
+                            <li>Cancel any time</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <img src="./images/Group 1537@2x.png" class="img-fluid" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <div class="container-xxl">
+        <div class="sec-3 ">
+            <p class="fs-4 fw-semibold text-center">Join 50.000+ websites that use
+                EmbedSocial to sell more</p>
+            <div class="sec-3 gap-3 d-flex justify-content-evenly flex-wrap align-items-center">
+                <img src="./images/cnn.png" alt="vector">
+                <img src="./images/netgeo.png" alt="image">
+                <img src="./images/Group.png" alt="image">
+                <img src="./images/ancestry-logo 1.png" alt="image">
+                <img src="./images/industrious 1.png" alt="image">
+                <img src="./images/nike.png" alt="image">
+            </div>
+        </div>
+    </div>
+    <!-- section1 end -->
+    <!-- section 2 start -->
+    <section class="section2 py-5 mt-4">
+        <div class="container-xxl section2 d-flex gap-5 align-items-center justify-content-center ">
+            <div class="section-2-img">
+                <img src="./images/preview-story-widget.png" class="img-fluid" alt="image">
+            </div>
+            <div class="section-2-con">
+                <h1 class="display-4 fw-bold mb-5">Widgets for every website.</h1>
+                <div class="section-2-list">
+                    <div class="sec-2-container">
+                        <img src="./images/Frame 1586 (1).png" alt="icon1">
+                        <span>Highlights</span>
+                    </div>
+                    <div class="sec-2-container">
+                        <img src="./images/Frame 1586.png" alt="icon4">
+                        <span>Popover</span>
+                    </div>
+                    <div class="sec-2-container">
+                        <img src="./images/Frame 1587 (1).png" alt="icon2">
+                        <span>Inline slideshows</span>
+                    </div>
+                    <div class="sec-2-container">
+                        <img src="./images/Frame 1586 (2).png" alt="">
+                        <span>Story list gallery</span>
+                    </div>
+                    <div class="sec-2-container">
+                        <img src="./images/Frame 1587 (2).png" alt="icon3">
+                        <span>Carousel gallery</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 end -->
+    <!-- section 3 start -->
+
+
+    <section class="section3 d-flex flex-column align-items-center py-5" style="background-color: #EEF1F7;">
+        <div class="container-xxl p-3 py-5">
+            <div class="section-3-container-1">
+                <h2 class="fs-1">Let your story live <mark> more than 24h.</mark></h2>
+                <p>You've worked hard to create a beautiful Instagram story but it disappears in 24 hours? No worries,
+                    use
+                    our story saver for Instagram to bring them to life on your website.</p>
+            </div>
+            <div class="section-3-container-2 my-5">
+                <div class="sec-3-cards d-flex gap-4 flex-wrap justify-content-center align-items-center">
+                    <div class="sec-3-card d-flex flex-column align-items-center gap-3" style=" background-color: var(--text-fill-color);   width: 230px;
+    height: 182px;">
+                        <img src="./images/instagram.png" alt="instagram">
+                        <p>
+                            <b>Auto-Sync </b><br>
+                            Instagram Stories
+                        </p>
+
+                    </div>
+                    <div class="sec-3-card d-flex flex-column align-items-center gap-3" style=" background-color: var(--text-fill-color);   width: 230px;
+    height: 182px;">
+                        <img src="./images/facebook.png" alt="facebook">
+                        <p>
+                            <b> Upload </b><br>
+                            Facebook Stories
+                        </p>
+                    </div>
+                    <div class="sec-3-card d-flex flex-column align-items-center gap-3" style=" background-color: var(--text-fill-color);   width: 230px;
+    height: 182px;">
+                        <img src="./images/tiktok.png" alt="tiktok">
+                        <p>
+                            <b> Sync </b><br>
+                            TikTok Stories
+                        </p>
+                    </div>
+                    <div class="sec-3-card d-flex flex-column align-items-center gap-3" style=" background-color: var(--text-fill-color);   width: 230px;
+    height: 182px;">
+                        <img src="./images/twitter.png" alt="twitter">
+                        <p>
+                            <b>Upload</b><br>
+                            Twitter Fleets
+                        </p>
+                    </div>
+                    <div class="sec-3-card d-flex flex-column align-items-center gap-3" style=" background-color: var(--text-fill-color);   width: 230px;
+    height: 182px;">
+                        <img src="./images/LI-In-Bug 1.png" alt="linked in">
+                        <p>
+                            <b>Upload </b><br>
+                            LinkedIn Stories
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 end -->
 
 
 
+
+    <!-- section 4 start -->
+    <section class="section4 py-5 mt-5">
+        <h2 class="fs-1 fw-bold"> Double your <mark>conversions.</mark><br>
+            Double your <mark>growth.</mark></h2>
+        <div class="section-4-container">
+            <div class="section-4-container-1">
+                <!-- <div class="row " > -->
+                <div class="section-4-card col-12">
+                    <h3>Brands</h3>
+                    <div class="sec-4-mini-container d-flex align-items-center">
+                        <img src="./images/arrow vector.png" class="my-auto" alt="vector">
+                        <h4>Icreases conversions</h4>
+                    </div>
+                    <p>
+                        Enhance the visual showcase of your products with unique content making visitors convert to
+                        buyers.
+                    </p>
+                </div>
+                <div class="section-4-card">
+                    <h3>Marketers</h3>
+                    <div class="sec-4-mini-container d-flex align-items-center">
+                        <img src="./images/clock.png" class="my-auto" alt="">
+                        <h4>Save time</h4>
+                    </div>
+                    <p>
+                        No more re-purposing, re-cropping or re-uploading the same content from your Instagram
+                        stories
+                        to
+                        your website.
+                    </p>
+                </div>
+                <div class="section-4-card">
+                    <h3>Web designers</h3>
+                    <div class="sec-4-mini-container d-flex align-items-center">
+                        <img src="./images/instagram Vector.png" class="my-auto" alt="">
+                        <h4>Fresh content</h4>
+                    </div>
+                    <p>
+                        Every story you post on Instagram, it is automatically saved in your account. Auto updates
+                        you
+                        unique content.
+                    </p>
+                </div>
+
+            </div>
+            <div class="section-4-container-2">
+                <div class="secction-4-mini-container">
+                    <img src="./images/image 72.png" alt="">
+                    <p class="w-auto">
+                        “Storytelling on another level. EmbedStories is great - it takes pride of place on our
+                        homepage
+                        aggregating stories from our Instagram account. I highly recommend this product. ”.
+                    </p>
+                    <div class="section-4-mini-sec">
+                        <img src="./images/Rectangle 192.png" alt="">
+                        <span>Ben Calahen, COO at Clovin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 4 end -->
+
+    <!-- section5 start -->
+
+
+    <section class="section5">
+        <div class="section-5-container-1">
+            <h2>Get started with one of our templates</h2>
+            <p>Start with one of our pre-designed templates. Create, personalize and embed the perfect widget for
+                any
+                page or campaign in just minutes.</p>
+            <button class="btn1">See templates demos <img src="./images/arrow.png" alt=""></button>
+        </div>
+        <div class="section-5-container-2">
+            <div class="section-5-main">
+                <div class="section-5-cards">
+                    <img src="./images/e-commerce - site (1).jpg" alt="">
+                    <h4>Popover</h4>
+                    <p>Showcases on every page that gives the feel of a living & breathing website. </p>
+                </div>
+                <div class="section-5-cards">
+                    <h4>Highlights</h4>
+                    <p>Mimics the same functionality of the Instagram Highlights on your website.</p>
+                    <img src="./images/preveiw.png" class="highlight" alt="">
+                </div>
+                <div class="section-5-cards">
+                    <img src="./images/preview-story-widget (1).png" alt="">
+                    <h4>Slider</h4>
+                    <p>Display your stories in a full slideshow layout that catches your visitors' attention. </p>
+                </div>
+                <div class="section-5-cards">
+                    <img src="./images/e-commerce - site.jpg" alt="">
+                    <h4>Gallery</h4>
+                    <p>One widget with multiple stories and embed them as a full story gallery on your website. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section6 start -->
+    <section class="section6 py-5">
+        <div class="container-xxl">
+            <div class="section-6-container">
+                <img src="./images/Frame 1583.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section6 end -->
+    <!-- section7 start -->
+
+    <section class="section7">
+        <div class="container-xxl">
+            <div class="section-7-container-1">
+                <h2>Be on brand. Customize in minutes</h2>
+                <p class="section7-para">EmbedStories gives you flexibility in managing the display and looks of the
+                    Instagram Stories on your
+                    website. </p>
+                <div class="section-7-mini-container">
+                    <div class="section-7-side-btn">
+                        <img src="./images/calendar-alt.png" class="my-auto" alt="icon">
+                        <p class="my-auto">Stories from specific date</p>
+                    </div>
+                    <div class="section-7-side-btn">
+                        <img src="./images/fill-drip.png" alt="icon">
+                        <p class="my-auto">Customize color</p>
+                    </div>
+                    <div class="section-7-side-btn">
+                        <img src="./images/instagram Vector.png" alt="icon">
+                        <p class="my-auto">Follow button</p>
+                    </div>
+                    <div class="section-7-side-btn">
+                        <img src="./images/th-large.png" alt="icon">
+                        <p class="my-auto">Multiple layouts</p>
+                    </div>
+                    <div class="section-7-side-btn">
+                        <img src="./images/setting.png" alt="icon">
+                        <p class="my-auto"> Advance moderation</p>
+                    </div>
+                    <div class="section-7-side-btn">
+                        <img src="./images/code.png" alt="icon">
+                        <p class="my-auto">Custom CSS</p>
+                    </div>
+                </div>
+                <img src="./images/frame of section 7.png" alt="frame" class="main-img img-fluid">
+            </div>
+            <div class="section-7-container-2">
+                <h2> Embed it and forget it</h2>
+                <div class="section-7-mini-container">
+                    <div class="sec7-con">
+                        <img src="./images/check (1).png" alt="">
+                        <span> Simple instalation. No developers needed</span>
+                    </div>
+                    <div class="sec7-con">
+                        <img src="./images/check (1).png" alt="">
+                        <span>Embed on different CMS platforms</span>
+                    </div>
+                    <div class="sec7-con">
+                        <img src="./images/check (1).png" alt="">
+                        <span>Auto sync new stories</span>
+                    </div>
+                    <div class="section-7-img">
+                        <img src="./images/section-7-container-2.png" alt="frame" class="main-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section7 end -->
+    <!-- section8 start -->
+    <section class="section-8">
+        <div class="container-xxl">
+
+
+
+            <div class="container1">
+                <div class="sec1-1_1 py-3">
+                    <h1 class=" fw-bolder lh-3">Ready to dive in?
+                        Create your widget today.</h1>
+                    <p>Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add
+                        a photo in your active story. </p>
+                </div>
+                <div class="sec1-1">
+
+                    <div class="sec1-2">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Enter your email"
+                                aria-label="Recipient’s username" aria-describedby="button-addon2">
+                            <button class="btn bg-primary text-light" type="button" id="button-addon2">Start Free Trial
+                                <img src="./images/arrow.png" alt="arrow" class="img-fluid"></button>
+                        </div>
+                        </button>
+                    </div>
+                    <div class="sec-1-3  mt-3">
+                        <ul class="d-flex gap-3">
+                            <span>Free 7-day trial</span>
+                            <li>Easy setup</li>
+                            <li>Cancel any time</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section-8-container-2">
+            <img src="./images/Frame 953 (1).png" class="img-fluid" alt="section-8-image">
+        </div>
+        </div>
+    </section>
+    <!-- section8 end -->
+
+    <!-- section9 start -->
+    <section class="section9">
+        <div class="container-xxl">
+            <h2>Other features at your service</h2>
+            <div class="section9-cards">
+                <div class="section9-card">
+                    <img src="./images/Frame 1504 (1).png" alt="">
+                    <h3>
+                        Auto sync
+                    </h3>
+                    <p>
+                        Sync all Instagram stories in a single click and create an widget that you can embed on any
+                        website.
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1504 (2).png" alt="">
+                    <h3>
+                        Responsive
+                    </h3>
+                    <p>
+                        Mobile-friendly, fully responsive, fits on every display: tablet, mobile, or desktop.
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1503.png" alt="">
+                    <h3>
+                        Follow button
+                    </h3>
+                    <p>
+                        Show a Follow button with a link to your Instagram account to help you drive traffic and
+                        increase
+                        followers.
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1503 (2).png" alt="">
+                    <h3>
+                        Unlimited widgets
+                    </h3>
+                    <p>
+                        Create multiple widgets and embed feeds on various websites from multiple social media
+                        platforms.
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1504 (4).png" alt="">
+                    <h3>
+                        Localization
+                    </h3>
+                    <p>
+                        Use the 10+ languages available in the platform to localize the widget for your web visitors.
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1504 (5).png" alt="">
+                    <h3>
+                        Filters (PRO)
+                    </h3>
+                    <p>
+                        Use filters by date or keywords. Change the number of pages and post per page in your feed...
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1504 (6).png" alt="">
+                    <h3>
+                        Analytics
+                    </h3>
+                    <p>
+                        Know which Instagram story performs best and the total clicks of the entire widget on your
+                        website.
+                    </p>
+                </div>
+                <div class="section9-card">
+                    <img src="./images/Frame 1504 (8).png" alt="">
+                    <h3>
+                        Custom CSS
+                    </h3>
+                    <p>
+                        Variety of settings, filters, and a Custom CSS editor to style your social media widget
+                        entirely.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section9 end -->
+    <!-- section10 start -->
+    <div class="container-xxl">
+        <section class="section10 ">
+            <div class="section10-container-1">
+                <h2>It was love at first story</h2>
+                <p>“Great plugin and amazing support. I trialed several plugins that try to accomplish the same thing.
+                    None
+                    of them did it as beautifully and as simple as EmbedStories”
+                    <br>
+                    Bertha Jo, CEO at jacole
+                </p>
+                <div><i>jacole</i></div>
+            </div>
+            <div class="section10-container-2">
+                <img src="./images/Group 1646 (1).png" class="img-fluid mt-5" alt="image girl">
+            </div>
+
+        </section>
+    </div>
+    <!-- section10 end -->
+    <!-- section11 start -->
+    <section class="section11">
+        <div class="section11-container-1">
+            <h2>Our customers love EmbedStories</h2>
+            <p class="para">Rated 4.8 by our customers on Facebook and Google</p>
+        </div>
+        <div class="section11-container-1">
+            <div class="section11-cards">
+                <div class="section11-card">
+                    <img src="./images/Frame 74.png" alt=" ">
+                    <p>Terry Dias</p>
+                    <img src="./images/Group 69.1.png" alt="rating " class="rating-img">
+                    <p>I just signed up for a trial and within a couple of hours had a brand new customer
+                        testimonials
+                        page built on our website as well as sliders...</p>
+                    <img src="./images/Group 82.png" alt="pic" class="section-11-img">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Rectangle 195.png" alt="">
+                    <p>James Workman</p>
+                    <img src="./images/Group 69.1.png" alt="rating" class="rating-img">
+                    <p>Seriously impressed by Embed Social.Good job making the app so easy to use.</p>
+                    <img src="./images/Group 82.png" alt="pic " class="section-11-img">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Rectangle 195 (1).png" alt="">
+                    <p>Ahmad Vaccaro</p>
+                    <img src="./images/Group 69.1.png" alt="rating" class="rating-img">
+                    <p>Emebed Social and their services is just perfect ! It has made my business life so much
+                        easier !
+                        5 stars!</p>
+                    <img src="./images/Group 82.png" alt="pic" class="section-11-img">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Rectangle 195 (2).png" alt="">
+                    <p>Allison Culhane</p>
+                    <img src="./images/Group 69.1.png" alt="rating" class="rating-img">
+                    <p>Awesome products, Superior human support.</p>
+                    <img src="./images/Group 82.png" alt="pic" class="section-11-img sec-11-mini">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Frame 74 (1).png" alt="">
+                    <p>Davis Herwitz</p>
+                    <img src="./images/Group 69.1.png" alt="rating" class="rating-img">
+                    <p>I've been on the look out for lots of companies to do what they do, and I've never found any
+                        company who are so quick to get in touch and...</p>
+                    <img src="./images/Group 82.png" alt="pic" class="section-11-img">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Rectangle 195 (3).png" alt="">
+                    <p>Jessie Grant </p>
+                    <img src="./images/Group 69.1.png" alt="rating" class="rating-img">
+                    <p>Very impressed. 5 stars!</p>
+                    <img src="./images/Group 82.png" alt="" class="section-11-img sec-11-mini">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Frame 74 (2).png" alt="">
+                    <p>John Smith</p>
+                    <img src="./images/Group 69.1.png" alt="rating" class="rating-img">
+                    <p>Our experience with EmbedStories is very good, very solid, loads fast, looks good.</p>
+                    <img src="./images/Group 82.png" alt="" class="section-11-img">
+                </div>
+                <div class="section11-card">
+                    <img src="./images/Rectangle 192.jpg" alt="">
+                    <p>Ben Calahen, COO at Clovin</p>
+                    <img src="./images/Group 69.1.png" alt="ratingc" class="rating-img">
+                    <p>Storytelling on another level. EmbedStories is great - it takes pride of place on our
+                        homepage...
+                    </p>
+                    <img src="./images/Group 82.png" alt="pic" class="section-11-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section11 end -->
+
+    <!-- section12 start -->
+    <section class="section12">
+        <div class="container-xxl">
+            <h1>More than just a widget.
+                <br>A complete <mark>Stories Platform.</mark>
+            </h1>
+            <div class="section-12-container1 sec-12">
+                <img src="./images/Group 1511.png" class="section-12-main-img img-fluid" alt="">
+                <div class="section-12-text-container">
+                    <h2>Make your Instagram <br>Stories, Shoppable</h2>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        Use the Call to Acton feature and add buy links to the Instagram stories
+                    </p>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        Allow your web visitors to interact and directly buy the product showcased in the Instagram
+                        story.
+                    </p>
+                </div>
+            </div>
+            <div class="section-12-container2 sec-12">
+                <div class="section-12-text-container">
+                    <h2>Boost your Instagram <br> stories with few clicks</h2>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        Create Instagram Story Ads in just a few clicks
+                    </p>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        Archive Instagram Stories with EmbesStories and re-use them for Instagram Ads.
+                    </p>
+                    <p>
+                        <b>
+                            <img src="./images/check (1).png" class="img-fluid" alt="">
+                            This is an option that is not available in the Facebook Ads Manager.
+                        </b>
+                    </p>
+                </div>
+                <img src="./images/Group 1559.png" class="section-12-main-img img-fluid" alt="">
+            </div>
+            <div class="section-12-container3 sec-12">
+                <img src="./images/Group 1522.png" class="section-12-main-img img-fluid" alt="">
+                <div class="section-12-text-container">
+                    <h2>Create. Analyze. Grow.</h2>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        Analyze conversions, clicks, views
+                    </p>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        Compare metrics between products
+                    </p>
+                    <p>
+                        <img src="./images/check (1).png" class="img-fluid" alt="">
+                        See the direct effect.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section12 end -->
+
+
+
+    <!-- section13 start -->
+    <div class="container-xxl">
+        <section class="section13">
+            <div class="section-13-container">
+                <div class="section-13-container1">
+                    <h1 class="fs-1"> Try all EmbedStories features 7 days free.</h1>
+                    <p>Reach more with your Instagram stories.</p>
+                    <div class="sec-13-btn">
+                        <button class="sec-13-btn1">Annualy, save 20%</button>
+                        <button class="sec-13-btn2">Monthly</button>
+                    </div>
+                </div>
+                <div class="section-13-container2">
+
+                    <div class="section13-cards">
+                        <div class="section13-card">
+                            <h2>FREE</h2>
+                            <h3>$0 / <small>month</small></h3>
+                            <button class="section13-btn">Start Using For Free</button>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                <b>Instagram Business Account </b>
+                            </p>
+                            <p> <img src="./images/check (1).png" alt="icon">
+                                Auto Update
+                            </p>
+
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Unlimited Story Widget
+                            </p>
+
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Unlimited Galleries
+                            </p>
+
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Multiple Layouts & Options
+
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Convert to AMP Format
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                API Access
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Team Sub-Accounts
+
+                            </p>
+
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Advance Analytics
+                            </p>
+                        </div>
+                        <div class="section13-card">
+                            <h2>PRO</h2>
+                            <h3>$29 / <small>month</small></h3>
+                            <button class="section13-btn">Try Free For 7 Days</button>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                <b>Instagram Business Account </b>
+                            </p>
+                            <p> <img src="./images/check (1).png" alt="icon">
+                                Auto Update
+                            </p>
+
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Unlimited Story Widget
+                            </p>
+
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Unlimited Galleries
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">
+                                Multiple Layouts & Options
+
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                Convert to AMP Format
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                API Access
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon"> Team Sub-Accounts
+
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">
+                                Advance Analytics
+                            </p>
+                        </div>
+                        <div class="section13-card">
+                            <h2>PRO Plus</h2>
+                            <h3>$49 /<small>month</small></h3>
+                            <button class="section13-btn">Try Free For 7 Days</button>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                <b>Instagram Business Account </b>
+                            </p>
+                            <p> <img src="./images/check (1).png" alt="icon">
+                                Auto Update
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">Unlimited Story Widget
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">Unlimited Galleries
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">Multiple Layouts & Options
+
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon"> Convert to AMP Format
+                            </p>
+                            <p><img src="./images/check (1).png" alt="icon"> API Access
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon"> Team Sub-Accounts
+
+                            </p>
+
+                            <p><img src="./images/check (1).png" alt="icon"> Advance Analytics
+                            </p>
+                        </div>
+                        <div class="section13-card">
+                            <h2>PREMIUM</h2>
+                            <h3>$99 /<small>month</small></h3>
+                            <button class="section13-btn">Try Free For 7 Days</button>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon">
+                                <b>Instagram Business Account </b>
+                            </p>
+                            <p> <img src="./images/check (1).png" alt="icon">
+                                Auto Update
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">Unlimited Story Widget
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon"> Unlimited Galleries
+                            </p>
+
+                            <p> <img src="./images/check (1).png" alt="icon">Multiple Layouts & Options
+
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon"> Convert to AMP Format
+                            </p>
+                            <p> <img src="./images/check (1).png" alt="icon">API Access
+                            </p>
+                            <p>
+                                <img src="./images/check (1).png" alt="icon"> Team Sub-Accounts
+
+                            </p>
+
+                            <p><img src="./images/check (1).png" alt="icon"> Advance Analytics
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- faqs -->
+            <div class="section-13-container-3">
+                <h1>Frequently asked questions</h1>
+                <p>Have a specific question? Check out our Support Center</p>
+                <div class="faqs-container p-3">
+                    <div class="q-box">
+                        <h3>Qusetion1</h3>
+                        <p class="answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod
+                            semper leo.</p>
+                        <hr>
+                    </div>
+                    <div class="q-box">
+                        <h3>Qusetion2 </h3>
+                        <p class="answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod
+                            semper leo.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="q-box">
+                        <h3>Qusetion3 </h3>
+                        <p class="answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod
+                            semper leo.
+                        </p>
+                        <hr>
+                    </div>
+                    <div class="q-box">
+                        <h3>Qusetion4</h3>
+                        <p class="answer">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod
+                            semper leo.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- section13 end -->
+    <!-- section14 start -->
+    <section class="section14">
+        <div class="container-xxl">
+            <h1 class="fs-1">From the <mark>creators of Embe</mark>dSocial trusted and displayed on 50,000+ websites </h1>
+            <img src="./images/Group 1604.png" class="img-fluid" alt="image">
+        </div>
+    </section>
+    <!-- section14 end -->
+    <!-- section15 start -->
+    <section class="section15">
+        <h1>Ready to dive in?<br>
+            Create your widget today.</h1>
+        <p>Display Instagram Stories Widget on your website, that auto-syncs, and updates each time you add a photo
+            in
+            your active story. </p>
+
+
+        </div>
+
+    </section>
+    <!-- section15 end-->
+    <!-- footer start -->
+    <footer>
+        <div class="footer-cons">
+            <div class="footer-con1 footer-con">
+                <div class="footer-min">
+                    <img src="./images/Group 335.png" alt="embed code">
+                    <h3>embedsocial</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id rhoncus suspendisse mattis ultricies
+                    adipiscing quam pretium eleifend. </p>
+            </div>
+            <div class="footer-con2 footer-con">
+                <h3>Product</h3>
+                <p>Reviews management
+                    Embed Instagram stories
+                    Display Instagram feeds
+                    Collect reviews
+                    Send email requests
+                </p>
+            </div>
+            <div class="footer-con3 footer-con">
+                <h3>Company</h3>
+                <p>About EmbedSocial
+                    Brand Guidelines
+                    Press Kit
+                    Support</p>
+            </div>
+            <div class="footer-con4 footer-con">
+                <h3>Integrations</h3>
+                <p>WordPress
+                    Shopify
+                    Magento
+                    Squarespace
+                    Intercom
+                    Slack
+                </p>
+            </div>
+
+            <div class="footer-con5 footer-con">
+                <h3>Integrations</h3>
+                <p>WordPress
+                    Shopify
+                    Magento
+                    Squarespace
+                    Intercom
+                    Slack
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end-->
+
+
+    <!-- section 2 end -->
+    <!-- section 2 end -->
 
 
 
 
     <script src="./bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
